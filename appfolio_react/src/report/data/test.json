@@ -1,0 +1,343 @@
+[
+    {
+        "id": "325",
+        "accountType": "liability",
+        "subAccountNumber": null,
+        "cashFlowInclude": false,
+        "subAccountName": null,
+        "order": [
+            "326",
+            "332"
+        ],
+        "createdAt": {
+            "seconds": 1745049538,
+            "nanoseconds": 956000000
+        },
+        "exempt1099": false,
+        "managementFees": false,
+        "subAccountId": null,
+        "accountName": "PAYROLL DEDUCTION/TAXES TO PAY",
+        "importedId": "325",
+        "accountTypeName": "Liability",
+        "number": "2300",
+        "children": [
+            {
+                "id": "326",
+                "accountTypeName": "Liability",
+                "order": [
+                    "327",
+                    "328",
+                    "329",
+                    "330",
+                    "331"
+                ],
+                "accountType": "liability",
+                "managementFees": false,
+                "subAccountName": "PAYROLL DEDUCTION/TAXES TO PAY",
+                "subAccountId": "325",
+                "accountName": "Employee Payroll Taxes",
+                "createdAt": {
+                    "seconds": 1745049538,
+                    "nanoseconds": 956000000
+                },
+                "exempt1099": false,
+                "subAccountNumber": "2300",
+                "number": "2320",
+                "importedId": "326",
+                "cashFlowInclude": false,
+                "children": [
+                    {
+                        "id": "327",
+                        "cashFlowInclude": false,
+                        "importedId": "327",
+                        "exempt1099": false,
+                        "accountType": "liability",
+                        "subAccountName": "Employee Payroll Taxes",
+                        "number": "2321",
+                        "order": [],
+                        "accountTypeName": "Liability",
+                        "subAccountId": "326",
+                        "managementFees": false,
+                        "subAccountNumber": "2320",
+                        "accountName": "EE Social Security",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "328",
+                        "number": "2322",
+                        "cashFlowInclude": false,
+                        "subAccountId": "326",
+                        "managementFees": false,
+                        "importedId": "328",
+                        "accountTypeName": "Liability",
+                        "subAccountNumber": "2320",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "subAccountName": "Employee Payroll Taxes",
+                        "accountType": "liability",
+                        "order": [],
+                        "accountName": "EE Medicare",
+                        "exempt1099": false,
+                        "children": []
+                    },
+                    {
+                        "id": "329",
+                        "importedId": "329",
+                        "accountTypeName": "Liability",
+                        "cashFlowInclude": false,
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "number": "2323",
+                        "exempt1099": false,
+                        "subAccountNumber": "2320",
+                        "subAccountId": "326",
+                        "accountType": "liability",
+                        "managementFees": false,
+                        "accountName": "EE Federal Tax Withholdings",
+                        "subAccountName": "Employee Payroll Taxes",
+                        "order": [],
+                        "children": []
+                    },
+                    {
+                        "id": "330",
+                        "subAccountName": "Employee Payroll Taxes",
+                        "order": [],
+                        "accountTypeName": "Liability",
+                        "subAccountId": "326",
+                        "accountType": "liability",
+                        "subAccountNumber": "2320",
+                        "cashFlowInclude": false,
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "exempt1099": false,
+                        "accountName": "EE State Tax Withholdings",
+                        "managementFees": false,
+                        "number": "2324",
+                        "importedId": "330",
+                        "children": []
+                    },
+                    {
+                        "id": "331",
+                        "order": [],
+                        "accountName": "EE State Disability Insurance Tax",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "number": "2325",
+                        "importedId": "331",
+                        "managementFees": false,
+                        "accountTypeName": "Liability",
+                        "exempt1099": false,
+                        "cashFlowInclude": false,
+                        "accountType": "liability",
+                        "subAccountNumber": "2320",
+                        "subAccountId": "326",
+                        "subAccountName": "Employee Payroll Taxes",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": "332",
+                "cashFlowInclude": false,
+                "importedId": "332",
+                "exempt1099": false,
+                "order": [
+                    "333",
+                    "334",
+                    "335",
+                    "336",
+                    "337",
+                    "338",
+                    "1199",
+                    "1200"
+                ],
+                "accountName": "Deduction - Benefits / Garnishments",
+                "subAccountId": "325",
+                "createdAt": {
+                    "seconds": 1745049538,
+                    "nanoseconds": 956000000
+                },
+                "accountTypeName": "Liability",
+                "accountType": "liability",
+                "managementFees": false,
+                "subAccountNumber": "2300",
+                "number": "2350",
+                "subAccountName": "PAYROLL DEDUCTION/TAXES TO PAY",
+                "children": [
+                    {
+                        "id": "333",
+                        "managementFees": false,
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "importedId": "333",
+                        "accountName": "Medical insurance",
+                        "accountType": "liability",
+                        "cashFlowInclude": false,
+                        "exempt1099": false,
+                        "accountTypeName": "Liability",
+                        "order": [],
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "subAccountNumber": "2350",
+                        "subAccountId": "332",
+                        "number": "2351",
+                        "children": []
+                    },
+                    {
+                        "id": "334",
+                        "accountType": "liability",
+                        "importedId": "334",
+                        "accountTypeName": "Liability",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "subAccountNumber": "2350",
+                        "accountName": "Dental Insurance",
+                        "cashFlowInclude": false,
+                        "number": "2352",
+                        "order": [],
+                        "exempt1099": false,
+                        "managementFees": false,
+                        "subAccountId": "332",
+                        "children": []
+                    },
+                    {
+                        "id": "335",
+                        "exempt1099": false,
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "number": "2353",
+                        "accountTypeName": "Liability",
+                        "accountType": "liability",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "accountName": "Vision Insurance",
+                        "subAccountId": "332",
+                        "importedId": "335",
+                        "order": [],
+                        "cashFlowInclude": false,
+                        "subAccountNumber": "2350",
+                        "managementFees": false,
+                        "children": []
+                    },
+                    {
+                        "id": "336",
+                        "order": [],
+                        "accountTypeName": "Liability",
+                        "accountType": "liability",
+                        "exempt1099": false,
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "importedId": "336",
+                        "cashFlowInclude": false,
+                        "managementFees": false,
+                        "subAccountNumber": "2350",
+                        "subAccountId": "332",
+                        "accountName": "Voluntary Life Insurance",
+                        "number": "2354",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "children": []
+                    },
+                    {
+                        "id": "337",
+                        "managementFees": false,
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "accountType": "liability",
+                        "accountName": "State/Federal Tax Levy",
+                        "subAccountNumber": "2350",
+                        "subAccountId": "332",
+                        "accountTypeName": "Liability",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "number": "2355",
+                        "exempt1099": false,
+                        "cashFlowInclude": false,
+                        "importedId": "337",
+                        "order": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1199",
+                        "accountType": "liability",
+                        "exempt1099": false,
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "managementFees": false,
+                        "accountName": "Hospital Indemnity",
+                        "number": "2356",
+                        "cashFlowInclude": false,
+                        "accountTypeName": "Liability",
+                        "importedId": "1199",
+                        "order": [],
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "subAccountNumber": "2350",
+                        "subAccountId": "332",
+                        "children": []
+                    },
+                    {
+                        "id": "1200",
+                        "importedId": "1200",
+                        "accountType": "liability",
+                        "accountName": "Critical Illness",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "accountTypeName": "Liability",
+                        "subAccountId": "332",
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "subAccountNumber": "2350",
+                        "number": "2357",
+                        "exempt1099": false,
+                        "order": [],
+                        "cashFlowInclude": false,
+                        "managementFees": false,
+                        "children": []
+                    },
+                    {
+                        "id": "338",
+                        "accountTypeName": "Liability",
+                        "accountName": "Deduction-Other",
+                        "subAccountNumber": "2350",
+                        "subAccountId": "332",
+                        "number": "2358",
+                        "createdAt": {
+                            "seconds": 1745049538,
+                            "nanoseconds": 956000000
+                        },
+                        "accountType": "liability",
+                        "subAccountName": "Deduction - Benefits / Garnishments",
+                        "order": [],
+                        "managementFees": false,
+                        "exempt1099": false,
+                        "cashFlowInclude": false,
+                        "importedId": "338",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

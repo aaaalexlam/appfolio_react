@@ -1,0 +1,712 @@
+{
+    "thead_row": "\u003ctr\u003e\n    \u003cth class=\"paginated-table__date-column-header js-sortable-column is-sortable\" data-sort-column=\"date\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eDate\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__payer-column-header js-sortable-column is-sortable\" data-sort-column=\"payer_name\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003ePayer\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__account-column-header js-sortable-column is-sortable\" data-sort-column=\"account_name\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eGL Account\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__property-column-header js-sortable-column is-sortable\" data-sort-column=\"property_name\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eProperty - Unit\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__amount-column-header js-sortable-column is-sortable\" data-sort-column=\"amount\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eAmount\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__reference-column-header js-sortable-column is-sortable\" data-sort-column=\"reference_number\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eReference\u003c/span\u003e\n    \u003c/th\u003e\n\u003c/tr\u003e\n",
+    "body_row_data": [
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/07/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Mildred Woo"
+                },
+                {
+                    "class": null,
+                    "value": "4220: Pendant Replacement Fee, 4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Valley Senior Living  - 236"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72262\"\u003e0.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "--"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72262"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Felix Zapata"
+                },
+                {
+                    "class": null,
+                    "value": "4011: Rent - MC, 4403: Care Level Fee MC3"
+                },
+                {
+                    "class": null,
+                    "value": "The Groves at Tustin - 240A"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72176\"\u003e7,182.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "316468856"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72176"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Daisy Pomilia"
+                },
+                {
+                    "class": null,
+                    "value": "4301: AL Care Level Fee 1, 4660: Late Fee"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 303"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72173\"\u003e0.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "--"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72173"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Neil Bock"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL, 4302: AL Care Level Fee 2, 4250: Additional Housekeeping Fee"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 211"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72170\"\u003e4,488.60\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "1094"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72170"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "George Dabrowski"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 226"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72169\"\u003e2,763.68\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "645"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72169"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Frances Sarandon"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 221"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72167\"\u003e2,802.60\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "724"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72167"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Bobbie Imbilli"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 228"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72166\"\u003e3,935.18\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "6257"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72166"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Carolyn Miller"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 214"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72165\"\u003e3,342.60\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "1169"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72165"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Mary  Stewart"
+                },
+                {
+                    "class": null,
+                    "value": "4011: Rent - MC, 4406: Care Level Fee MC6"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 2GH17"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72164\"\u003e5,716.40\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "6062"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72164"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Shanda Hylton"
+                },
+                {
+                    "class": null,
+                    "value": "4301: AL Care Level Fee 1, 4630: Pet Fee, 4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 133"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72162\"\u003e4,555.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "1541"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72162"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Mary Lee Huntington"
+                },
+                {
+                    "class": null,
+                    "value": "4250: Additional Housekeeping Fee, 4240: Tray Service Fee"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 224"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72148\"\u003e0.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "--"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72148"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Mary Lee Huntington"
+                },
+                {
+                    "class": null,
+                    "value": "4900: Miscellaneous, 4010: Rent - AL, 4250: Additional Housekeeping Fee"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 224"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72146\"\u003e3,801.11\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72146"
+                }
+            ]
+        },
+        {
+            "row_classes": [
+                "reversed-receipt"
+            ],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Mary Lee Huntington"
+                },
+                {
+                    "class": null,
+                    "value": "4900: Miscellaneous, 4010: Rent - AL, 4250: Additional Housekeeping Fee"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 224"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72144\"\u003e3,808.11\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72144"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Donna Stekr"
+                },
+                {
+                    "class": null,
+                    "value": "4240: Tray Service Fee, 4010: Rent - AL, 4305: AL Care Level Fee 5"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 225"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72143\"\u003e5,502.60\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72143"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Howard Crawford"
+                },
+                {
+                    "class": null,
+                    "value": "4011: Rent - MC, 4401: Care Level Fee MC1"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 3GH09"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72142\"\u003e3,400.60\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72142"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Richard Hart"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 122"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72141\"\u003e3,800.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72141"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Marcia Sergott"
+                },
+                {
+                    "class": null,
+                    "value": "4011: Rent - MC, 4405: Care Level Fee MC5"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 2GH16"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72140\"\u003e5,110.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72140"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Ronald Sergott"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL, 4290: Laundry Service"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 301"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72139\"\u003e3,680.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72139"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Dennis DeVuyst"
+                },
+                {
+                    "class": null,
+                    "value": "4010: Rent - AL"
+                },
+                {
+                    "class": null,
+                    "value": "Everest at Oceanside - 201"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72138\"\u003e3,404.80\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "ACH"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72138"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Judith Ehrlich"
+                },
+                {
+                    "class": null,
+                    "value": "4240: Tray Service Fee, 4010: Rent - AL, 4302: AL Care Level Fee 2"
+                },
+                {
+                    "class": null,
+                    "value": "The Groves at Tustin - 310"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-right\"\u003e\u003ca href=\"/accounting/receivable_payments/72022\"\u003e5,655.00\u003c/a\u003e\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "5303"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/receivable_payments/72022"
+                }
+            ]
+        }
+    ],
+    "pagination": "\u003cdiv class=\"pagination border-top-0 pb-0 d-flex flex-column flex-sm-row-reverse justify-content-between align-items-center mb-3\"\u003e\n  \u003cnav aria-label=\"pagination\"\u003e\n    \u003cul class=\"m-0 p-0 mb-2 mb-sm-0 border-0 flex-row pagination\"\u003e\n\n\n          \u003cli class=\"pagination__current page-item active\"\u003e\n            \u003cspan class=\"page-link\"\u003e1\u003c/span\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=2\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e2\u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=3\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e3\u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=4\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e4\u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=5\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e5\u003c/a\u003e\n          \u003c/li\u003e\n\n        \u003cli class=\"js-pagination-next page-item d-flex align-items-center\"\u003e\n  \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=2\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e\n    \u003ci class=\"fa-solid fa-angle-right\"\u003e\u003c/i\u003e\n\u003c/a\u003e\u003c/li\u003e\n\n\n        \u003cli class=\"js-pagination-last page-item d-flex align-items-center\"\u003e\n  \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/receivable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=03%2F26%2F2025\u0026amp;filters%5Bgl_account_ids%5D%5B%5D=\u0026amp;filters%5Bproperties_ids%5D=\u0026amp;filters%5Bproperty_visibility%5D=active\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;filters%5Bunit_ids%5D%5B%5D=\u0026amp;page=36\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e\n    \u003ci class=\"fa-solid fa-angle-double-right\"\u003e\u003c/i\u003e\n\u003c/a\u003e\u003c/li\u003e\n\n    \u003c/ul\u003e\n  \u003c/nav\u003e\n\n  \u003cp class=\"js-pagination-summary m-0\"\u003eDisplaying: 1-20 of 714\u003c/p\u003e\n\u003c/div\u003e\n",
+    "base_url": "/accounting/receivable_payments?filters%5Bamount%5D=\u0026filters%5Bcontact_info_ids%5D=\u0026filters%5Bfrom_date%5D=03%2F26%2F2025\u0026filters%5Bgl_account_ids%5D%5B%5D=\u0026filters%5Bproperties_ids%5D=\u0026filters%5Bproperty_visibility%5D=active\u0026filters%5Bto_date%5D=05%2F07%2F2025\u0026filters%5Bunit_ids%5D%5B%5D=\u0026sort%5Bby%5D=occurred_on\u0026sort%5Border%5D=desc",
+    "current_page_url": "/accounting/receivable_payments?filters%5Bamount%5D=\u0026filters%5Bcontact_info_ids%5D=\u0026filters%5Bfrom_date%5D=03%2F26%2F2025\u0026filters%5Bgl_account_ids%5D%5B%5D=\u0026filters%5Bproperties_ids%5D=\u0026filters%5Bproperty_visibility%5D=active\u0026filters%5Bto_date%5D=05%2F07%2F2025\u0026filters%5Bunit_ids%5D%5B%5D=\u0026page=1\u0026sort%5Bby%5D=occurred_on\u0026sort%5Border%5D=desc",
+    "grouped": null,
+    "filter_form_html": "\u003cform class=\"form form--full-width\" id=\"new_filters\" data-type=\"json\" autocomplete=\"off\" novalidate=\"novalidate\" action=\"/accounting/receivable_payments\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"get\"\u003e\n  \n\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_properties_ids\"\u003eProperties\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput value=\"\" class=\"js-select2-search js-select2-property-search\" data-search-path=\"/search/properties_search\" data-visibility-filter=\"active\" data-multiple=\"true\" data-property-corporate-entity-combination=\"properties_and_corporate_entities\" placeholder=\"Search by property, group, portfolio, or owner\" type=\"text\" name=\"filters[properties_ids]\" id=\"filters_properties_ids\" /\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_unit_ids\"\u003eUnits\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput name=\"filters[unit_ids][]\" type=\"hidden\" value=\"\" autocomplete=\"off\" /\u003e\u003cselect value=\"\" class=\"js-select2-combobox js-select2-unit-search\" multiple=\"multiple\" placeholder=\"Search by unit\" data-selected-units=\"[]\" name=\"filters[unit_ids][]\" id=\"filters_unit_ids\"\u003e\u003c/select\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cselect class=\"js-select2-combobox js-property-visibility\" placeholder=\"Please Select\" name=\"filters[property_visibility]\" id=\"filters_property_visibility\"\u003e\u003coption selected=\"selected\" value=\"active\"\u003eShow Active Properties\u003c/option\u003e\n\u003coption value=\"hidden\"\u003eShow Hidden Properties\u003c/option\u003e\n\u003coption value=\"all\"\u003eShow All Properties\u003c/option\u003e\u003c/select\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_contact_info_ids\"\u003ePayers\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput value=\"\" class=\"js-select2-search js-contact-info\" data-search-path=\"/search/contact_info_search\" data-include-types=\"[\u0026quot;owner\u0026quot;,\u0026quot;occupancy\u0026quot;,\u0026quot;tax_authority\u0026quot;,\u0026quot;core/company\u0026quot;,\u0026quot;tax_authority\u0026quot;,\u0026quot;applicant\u0026quot;]\" data-multiple=\"true\" placeholder=\"Search by payer\" type=\"text\" name=\"filters[contact_info_ids]\" id=\"filters_contact_info_ids\" /\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_gl_account_ids\"\u003eGL Accounts\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput name=\"filters[gl_account_ids][]\" type=\"hidden\" value=\"\" autocomplete=\"off\" /\u003e\u003cselect class=\"js-select2-combobox\" multiple=\"multiple\" placeholder=\"Select GL Accounts\" name=\"filters[gl_account_ids][]\" id=\"filters_gl_account_ids\"\u003e\u003coptgroup label=\"Income\"\u003e\u003coption value=\"27\"\u003e4010: Rent - AL\u003c/option\u003e\n\u003coption value=\"208\"\u003e4011: Rent - MC\u003c/option\u003e\n\u003coption value=\"106\"\u003e4020: Community Fee\u003c/option\u003e\n\u003coption value=\"28\"\u003e4030: Other Rent\u003c/option\u003e\n\u003coption value=\"18\"\u003e4040: Prepaid Rent\u003c/option\u003e\n\u003coption value=\"29\"\u003e4110: Association Income\u003c/option\u003e\n\u003coption value=\"30\"\u003e4130: Gross Potential Rent\u003c/option\u003e\n\u003coption value=\"32\"\u003e4140: Concessions\u003c/option\u003e\n\u003coption value=\"33\"\u003e4150: Delinquency\u003c/option\u003e\n\u003coption value=\"34\"\u003e4160: Vacancy\u003c/option\u003e\n\u003coption value=\"114\"\u003e4210: Pendant Fee\u003c/option\u003e\n\u003coption value=\"115\"\u003e4220: Pendant Replacement Fee\u003c/option\u003e\n\u003coption value=\"125\"\u003e4230: Incontinent Supply Fee\u003c/option\u003e\n\u003coption value=\"119\"\u003e4240: Tray Service Fee\u003c/option\u003e\n\u003coption value=\"120\"\u003e4250: Additional Housekeeping Fee\u003c/option\u003e\n\u003coption value=\"121\"\u003e4260: Guest Meal Fee\u003c/option\u003e\n\u003coption value=\"122\"\u003e4270: Additional Maintenance Fee\u003c/option\u003e\n\u003coption value=\"123\"\u003e4280: Guest Suite Fee\u003c/option\u003e\n\u003coption value=\"145\"\u003e4290: Laundry Service\u003c/option\u003e\n\u003coption value=\"109\"\u003e4301: AL Care Level Fee 1\u003c/option\u003e\n\u003coption value=\"110\"\u003e4302: AL Care Level Fee 2\u003c/option\u003e\n\u003coption value=\"111\"\u003e4303: AL Care Level Fee 3\u003c/option\u003e\n\u003coption value=\"112\"\u003e4304: AL Care Level Fee 4\u003c/option\u003e\n\u003coption value=\"126\"\u003e4305: AL Care Level Fee 5\u003c/option\u003e\n\u003coption value=\"127\"\u003e4306: AL Care Level Fee 6\u003c/option\u003e\n\u003coption value=\"128\"\u003e4307: AL Care Level Fee 7\u003c/option\u003e\n\u003coption value=\"129\"\u003e4308: AL Care Level Fee 8\u003c/option\u003e\n\u003coption value=\"130\"\u003e4309: AL Care Leve Fee 9\u003c/option\u003e\n\u003coption value=\"132\"\u003e4401: Care Level Fee MC1\u003c/option\u003e\n\u003coption value=\"133\"\u003e4402: Care Level Fee MC2\u003c/option\u003e\n\u003coption value=\"134\"\u003e4403: Care Level Fee MC3\u003c/option\u003e\n\u003coption value=\"135\"\u003e4404: Care Level Fee MC4\u003c/option\u003e\n\u003coption value=\"136\"\u003e4405: Care Level Fee MC5\u003c/option\u003e\n\u003coption value=\"137\"\u003e4406: Care Level Fee MC6\u003c/option\u003e\n\u003coption value=\"138\"\u003e4407: Care Leve Fee MC7\u003c/option\u003e\n\u003coption value=\"139\"\u003e4408: Care Level Fee MC8\u003c/option\u003e\n\u003coption value=\"140\"\u003e4409: Care Leve Fee MC9\u003c/option\u003e\n\u003coption value=\"141\"\u003e4410: Care Level Fee MC10\u003c/option\u003e\n\u003coption value=\"142\"\u003e4411: Care Level Fee MC11\u003c/option\u003e\n\u003coption value=\"143\"\u003e4500: Care Level Fee Misc.\u003c/option\u003e\n\u003coption value=\"36\"\u003e4610: NSF Fees Collected\u003c/option\u003e\n\u003coption value=\"37\"\u003e4620: Tax Passthru\u003c/option\u003e\n\u003coption value=\"148\"\u003e4625: Unit Transfer Fee\u003c/option\u003e\n\u003coption value=\"117\"\u003e4630: Pet Fee\u003c/option\u003e\n\u003coption value=\"39\"\u003e4640: Application Fee Income\u003c/option\u003e\n\u003coption value=\"40\"\u003e4650: Insurance Services\u003c/option\u003e\n\u003coption value=\"41\"\u003e4660: Late Fee\u003c/option\u003e\n\u003coption value=\"42\"\u003e4670: Utility Reimbursement Fee\u003c/option\u003e\n\u003coption value=\"43\"\u003e4680: Month-to-Month Fee\u003c/option\u003e\n\u003coption value=\"1070\"\u003e4681: Parking Fee\u003c/option\u003e\n\u003coption value=\"836\"\u003e4682: Cable / TV\u003c/option\u003e\n\u003coption value=\"82\"\u003e4690: FOB Replacement Fee\u003c/option\u003e\n\u003coption value=\"44\"\u003e4700: Deposit Forfeit\u003c/option\u003e\n\u003coption value=\"46\"\u003e4800: Tenant Improvements\u003c/option\u003e\n\u003coption value=\"47\"\u003e4900: Miscellaneous\u003c/option\u003e\n\u003coption value=\"1140\"\u003e900-4010: HC Rent\u003c/option\u003e\n\u003coption value=\"1098\"\u003e900-4012: Parking Fee\u003c/option\u003e\n\u003coption value=\"1076\"\u003e900-4630: HC Pet Fee\u003c/option\u003e\n\u003coption value=\"1077\"\u003e900-4635: HC Pet Security Deposit\u003c/option\u003e\n\u003coption value=\"1078\"\u003e900-4681: HC Parking / Garage Fee\u003c/option\u003e\n\u003coption value=\"1079\"\u003e900-4900: HC Miscellaneous Income / Fee\u003c/option\u003e\n\u003coption value=\"201\"\u003e9999001: Mainstreet (DO NOT USE) - Rent\u003c/option\u003e\n\u003coption value=\"202\"\u003e9999002: Mainstreet (DO NOT USE) - Care Fee\u003c/option\u003e\n\u003coption value=\"203\"\u003e9999003: Mainstreet (DO NOT USE) - Services/Fees\u003c/option\u003e\n\u003coption value=\"205\"\u003e9999004: Mainstreet (DO NOT USE) - Move-In Charge\u003c/option\u003e\n\u003coption value=\"31\"\u003e9999005: Mainstreet (DO NOT USE) - Credit/Debit\u003c/option\u003e\n\u003coption value=\"1068\"\u003e99999-4010: Rent\u003c/option\u003e\n\u003coption value=\"394\"\u003e999999-4010: Rent - AL\u003c/option\u003e\n\u003coption value=\"395\"\u003e999999-4011: Rent - MC\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Liability\"\u003e\u003coption value=\"20\"\u003e2000: MORTGAGE PAYABLE\u003c/option\u003e\n\u003coption value=\"13\"\u003e2110: Owner Held Security Deposits\u003c/option\u003e\n\u003coption value=\"14\"\u003e2120: Owner Held Pet Deposits\u003c/option\u003e\n\u003coption value=\"15\"\u003e2130: Key Deposit\u003c/option\u003e\n\u003coption value=\"16\"\u003e2140: Garage Deposit\u003c/option\u003e\n\u003coption value=\"17\"\u003e2200: CLEARING ACCOUNT\u003c/option\u003e\n\u003coption value=\"1157\"\u003e2201: Payroll Clearing Account\u003c/option\u003e\n\u003coption value=\"327\"\u003e2321: EE Social Security\u003c/option\u003e\n\u003coption value=\"328\"\u003e2322: EE Medicare\u003c/option\u003e\n\u003coption value=\"329\"\u003e2323: EE Federal Tax Withholdings\u003c/option\u003e\n\u003coption value=\"330\"\u003e2324: EE State Tax Withholdings\u003c/option\u003e\n\u003coption value=\"331\"\u003e2325: EE State Disability Insurance Tax\u003c/option\u003e\n\u003coption value=\"333\"\u003e2351: Medical insurance\u003c/option\u003e\n\u003coption value=\"334\"\u003e2352: Dental Insurance\u003c/option\u003e\n\u003coption value=\"335\"\u003e2353: Vision Insurance\u003c/option\u003e\n\u003coption value=\"336\"\u003e2354: Voluntary Life Insurance\u003c/option\u003e\n\u003coption value=\"337\"\u003e2355: State/Federal Tax Levy\u003c/option\u003e\n\u003coption value=\"1199\"\u003e2356: Hospital Indemnity\u003c/option\u003e\n\u003coption value=\"1200\"\u003e2357: Critical Illness\u003c/option\u003e\n\u003coption value=\"338\"\u003e2358: Deduction-Other\u003c/option\u003e\n\u003coption value=\"1218\"\u003e2359: Payroll Advance\u003c/option\u003e\n\u003coption value=\"1152\"\u003e2360: Payroll Payable\u003c/option\u003e\n\u003coption value=\"1160\"\u003e2369: Tax Payables (Estimated)\u003c/option\u003e\n\u003coption value=\"1144\"\u003e2399: Insurance Payables (Estimated)\u003c/option\u003e\n\u003coption value=\"339\"\u003e2400: Sales Commission Tax Withholdings\u003c/option\u003e\n\u003coption value=\"19\"\u003e2500: Accounts Payable\u003c/option\u003e\n\u003coption value=\"1171\"\u003e2600: Short-Term Loan\u003c/option\u003e\n\u003coption value=\"1197\"\u003e2700: Vehicle / Equipment Loan\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Expense\"\u003e\u003coption value=\"231\"\u003e001-1: Program Assistant - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"232\"\u003e001-2: Program Assistant - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"233\"\u003e001-3: Program Assistant - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"234\"\u003e001-4: Program Assistant - Sick Day\u003c/option\u003e\n\u003coption value=\"235\"\u003e001-5: Program Assistant - Holiday\u003c/option\u003e\n\u003coption value=\"453\"\u003e001-7: Program Assistant - Bonus\u003c/option\u003e\n\u003coption value=\"455\"\u003e001-8: Program Assistant - PTO\u003c/option\u003e\n\u003coption value=\"456\"\u003e001-9: Program Assistant - PTO Payout\u003c/option\u003e\n\u003coption value=\"237\"\u003e004-1: Activities Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"238\"\u003e004-2: Activities Director - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"240\"\u003e004-4: Activities Director - Sick Day\u003c/option\u003e\n\u003coption value=\"241\"\u003e004-5: Activities Director - Holiday\u003c/option\u003e\n\u003coption value=\"242\"\u003e004-6: Activities Director - 1099-NEC\u003c/option\u003e\n\u003coption value=\"459\"\u003e004-7: Activities Director - Bonus\u003c/option\u003e\n\u003coption value=\"460\"\u003e004-8: Activities Director - PTO \u003c/option\u003e\n\u003coption value=\"461\"\u003e004-9: Activities Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"244\"\u003e005-1: Executive Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"245\"\u003e005-4: Executive Director - Sick Day\u003c/option\u003e\n\u003coption value=\"247\"\u003e005-7: Executive Director - Bonus\u003c/option\u003e\n\u003coption value=\"246\"\u003e005-8: Executive Director - PTO\u003c/option\u003e\n\u003coption value=\"471\"\u003e005-9: Executive Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"249\"\u003e006-1: Business Office Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"250\"\u003e006-4: Business Office Director - Sick Day\u003c/option\u003e\n\u003coption value=\"252\"\u003e006-7: Business Office Director - Bonus\u003c/option\u003e\n\u003coption value=\"251\"\u003e006-8: Business Office Director - PTO\u003c/option\u003e\n\u003coption value=\"478\"\u003e006-9: Business Office Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"254\"\u003e007-1: Receptionist - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"800\"\u003e007-1.1: Receptionist - Meal Premium\u003c/option\u003e\n\u003coption value=\"255\"\u003e007-2: Receptionist - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"256\"\u003e007-3: Receptionist - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"257\"\u003e007-4: Receptionist - Sick Day\u003c/option\u003e\n\u003coption value=\"258\"\u003e007-5: Receptionist - Holiday\u003c/option\u003e\n\u003coption value=\"363\"\u003e007-5.1: Receptionist - Holiday OT\u003c/option\u003e\n\u003coption value=\"364\"\u003e007-5.2: Receptionist - Holiday DT\u003c/option\u003e\n\u003coption value=\"375\"\u003e007-7: Receptionist - Bonus\u003c/option\u003e\n\u003coption value=\"259\"\u003e007-8: Receptionist - PTO\u003c/option\u003e\n\u003coption value=\"485\"\u003e007-9: Receptionist - PTO Payout\u003c/option\u003e\n\u003coption value=\"261\"\u003e008-1: Resident Services Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"262\"\u003e008-4: Resident Services Director - Sick Day\u003c/option\u003e\n\u003coption value=\"264\"\u003e008-7: Resident Services Director - Bonus\u003c/option\u003e\n\u003coption value=\"263\"\u003e008-8: Resident Services Director - PTO\u003c/option\u003e\n\u003coption value=\"497\"\u003e008-9: Resident Services Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"266\"\u003e009-1: Activities - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1153\"\u003e009-1.1: Activities - Meal Premium\u003c/option\u003e\n\u003coption value=\"267\"\u003e009-2: Activities - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"268\"\u003e009-3: Activities - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"269\"\u003e009-4: Activities - Sick Day\u003c/option\u003e\n\u003coption value=\"270\"\u003e009-5: Activities - Holiday\u003c/option\u003e\n\u003coption value=\"1163\"\u003e009-5.1: Activities - OT Holiday\u003c/option\u003e\n\u003coption value=\"1071\"\u003e009-5.2: Activities - DT Holiday\u003c/option\u003e\n\u003coption value=\"504\"\u003e009-7: Activities - Bonus\u003c/option\u003e\n\u003coption value=\"505\"\u003e009-8: Activities - PTO\u003c/option\u003e\n\u003coption value=\"506\"\u003e009-9: Activities - PTO Payout\u003c/option\u003e\n\u003coption value=\"272\"\u003e010-1: A/L Caregiver -  Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1099\"\u003e010-1.1: A/L Caregiver - Meal Premium\u003c/option\u003e\n\u003coption value=\"273\"\u003e010-2: A/L Caregiver -  OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"274\"\u003e010-3: A/L Caregiver -  DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"276\"\u003e010-4: A/L Caregiver -  Sick Day\u003c/option\u003e\n\u003coption value=\"275\"\u003e010-5: A/L Caregiver -  Holiday\u003c/option\u003e\n\u003coption value=\"365\"\u003e010-5.1: A/L Caregiver -  Holiday OT\u003c/option\u003e\n\u003coption value=\"366\"\u003e010-5.2: A/L Caregiver -  Holiday DT\u003c/option\u003e\n\u003coption value=\"1114\"\u003e010-6: A/L Caregiver - 1099-NEC\u003c/option\u003e\n\u003coption value=\"516\"\u003e010-7: A/L Caregiver -  Bonus\u003c/option\u003e\n\u003coption value=\"367\"\u003e010-8: A/L Caregiver -  PTO\u003c/option\u003e\n\u003coption value=\"368\"\u003e010-9: A/L Caregiver -  PTO Payout\u003c/option\u003e\n\u003coption value=\"786\"\u003e011-1: M/C Caregiver - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"794\"\u003e011-1.1: M/C Caregiver - Meal Premium\u003c/option\u003e\n\u003coption value=\"787\"\u003e011-2: M/C Caregiver - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"788\"\u003e011-3: M/C Caregiver - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"789\"\u003e011-4: M/C Caregiver - Sick Day\u003c/option\u003e\n\u003coption value=\"790\"\u003e011-5: M/C Caregiver - Holiday\u003c/option\u003e\n\u003coption value=\"795\"\u003e011-5.1: M/C Caregiver - Holiday OT\u003c/option\u003e\n\u003coption value=\"796\"\u003e011-5.2: M/C Caregiver - Holiday DT\u003c/option\u003e\n\u003coption value=\"791\"\u003e011-7: M/C Caregiver - Bonus\u003c/option\u003e\n\u003coption value=\"792\"\u003e011-8: M/C Caregiver - PTO\u003c/option\u003e\n\u003coption value=\"793\"\u003e011-9: M/C Caregiver - PTO Payout\u003c/option\u003e\n\u003coption value=\"278\"\u003e012-1: Med Tech - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"279\"\u003e012-2: Med Tech - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"280\"\u003e012-3: Med Tech - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"281\"\u003e012-4: Med Tech - Sick Day\u003c/option\u003e\n\u003coption value=\"282\"\u003e012-5: Med Tech - Holiday\u003c/option\u003e\n\u003coption value=\"369\"\u003e012-5.1: Med Tech - Holiday OT\u003c/option\u003e\n\u003coption value=\"370\"\u003e012-5.2: Med Tech - Holiday DT\u003c/option\u003e\n\u003coption value=\"528\"\u003e012-7: Med Tech - Bonus\u003c/option\u003e\n\u003coption value=\"371\"\u003e012-8: Med Tech - PTO\u003c/option\u003e\n\u003coption value=\"529\"\u003e012-9: Med Tech - PTO Payout\u003c/option\u003e\n\u003coption value=\"1179\"\u003e014-1: Marketing Coordinator - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1180\"\u003e014-2: Marketing Coordinator - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1181\"\u003e014-3: Marketing Coordinator - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1182\"\u003e014-4: Marketing Coordinator - Sick Day\u003c/option\u003e\n\u003coption value=\"1183\"\u003e014-5: Marketing Coordinator - Holiday\u003c/option\u003e\n\u003coption value=\"1184\"\u003e014-5.2: Marketing Coordinator - DT Holiday\u003c/option\u003e\n\u003coption value=\"1185\"\u003e014-7: Marketing Coordinator - Bonus\u003c/option\u003e\n\u003coption value=\"1186\"\u003e014-8: Marketing Coordinator - PTO\u003c/option\u003e\n\u003coption value=\"1187\"\u003e014-9: Marketing Coordinator - PTO Payout\u003c/option\u003e\n\u003coption value=\"284\"\u003e015-1: Community Relations - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1211\"\u003e015-2: OT Salaries/Wages \u003c/option\u003e\n\u003coption value=\"541\"\u003e015-4: Community Relations - Sick Day\u003c/option\u003e\n\u003coption value=\"542\"\u003e015-5: Community Relations - Holiday\u003c/option\u003e\n\u003coption value=\"289\"\u003e015-7: Community Relations - Bonus\u003c/option\u003e\n\u003coption value=\"543\"\u003e015-8: Community Relations - PTO\u003c/option\u003e\n\u003coption value=\"544\"\u003e015-9: Community Relations - PTO Payout\u003c/option\u003e\n\u003coption value=\"291\"\u003e016-1: Executive Chef - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"292\"\u003e016-4: Executive Chef - Sick Day\u003c/option\u003e\n\u003coption value=\"294\"\u003e016-7: Executive Chef - Bonus\u003c/option\u003e\n\u003coption value=\"293\"\u003e016-8: Executive Chef - PTO\u003c/option\u003e\n\u003coption value=\"552\"\u003e016-9: Executive Chef - PTO Payout\u003c/option\u003e\n\u003coption value=\"296\"\u003e018-1: Cook - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1154\"\u003e018-1.1: Cook - Meal Premium\u003c/option\u003e\n\u003coption value=\"297\"\u003e018-2: Cook - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1196\"\u003e018-3: Cook - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"299\"\u003e018-4: Cook - Sick Day\u003c/option\u003e\n\u003coption value=\"300\"\u003e018-5: Cook - Holiday\u003c/option\u003e\n\u003coption value=\"559\"\u003e018-5.1: Cook - Holiday OT\u003c/option\u003e\n\u003coption value=\"298\"\u003e018-5.2: Cook - Holiday DT\u003c/option\u003e\n\u003coption value=\"1188\"\u003e018-6: Cook - 1099 NEC\u003c/option\u003e\n\u003coption value=\"560\"\u003e018-7: Cook - Bonus\u003c/option\u003e\n\u003coption value=\"561\"\u003e018-8: Cook - PTO\u003c/option\u003e\n\u003coption value=\"562\"\u003e018-9: Cook - PTO Payout\u003c/option\u003e\n\u003coption value=\"302\"\u003e019-1: Lead Server - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"303\"\u003e019-2: Lead Server - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"304\"\u003e019-3: Lead Server - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"305\"\u003e019-4: Lead Server - Sick Day\u003c/option\u003e\n\u003coption value=\"573\"\u003e019-5: Lead Server - Holiday\u003c/option\u003e\n\u003coption value=\"574\"\u003e019-5.1: Lead Server - Holiday OT\u003c/option\u003e\n\u003coption value=\"286\"\u003e019-5.2: Lead Server - Holiday DT\u003c/option\u003e\n\u003coption value=\"575\"\u003e019-7: Lead Server - Bonus\u003c/option\u003e\n\u003coption value=\"306\"\u003e019-8: Lead Server - PTO\u003c/option\u003e\n\u003coption value=\"576\"\u003e019-9: Lead Server - PTO Payout\u003c/option\u003e\n\u003coption value=\"308\"\u003e020-1: Server - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1202\"\u003e020-1.1: Server - Meal Premium\u003c/option\u003e\n\u003coption value=\"309\"\u003e020-2: Server - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"310\"\u003e020-3: Server - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"311\"\u003e020-4: Server - Sick Day\u003c/option\u003e\n\u003coption value=\"312\"\u003e020-5: Server - Holiday\u003c/option\u003e\n\u003coption value=\"588\"\u003e020-5.1: Server - Holiday OT\u003c/option\u003e\n\u003coption value=\"285\"\u003e020-5.2: Server - Holiday DT\u003c/option\u003e\n\u003coption value=\"589\"\u003e020-7: Server - Bonus\u003c/option\u003e\n\u003coption value=\"590\"\u003e020-8: Server - PTO\u003c/option\u003e\n\u003coption value=\"591\"\u003e020-9: Server - PTO Payout\u003c/option\u003e\n\u003coption value=\"314\"\u003e021-1: Dishwasher - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1201\"\u003e021-1.1: Dishwasher - Meal Premium\u003c/option\u003e\n\u003coption value=\"315\"\u003e021-2: Dishwasher - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"316\"\u003e021-3: Dishwasher - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"317\"\u003e021-4: Dishwasher - Sick Day\u003c/option\u003e\n\u003coption value=\"318\"\u003e021-5: Dishwasher - Holiday\u003c/option\u003e\n\u003coption value=\"603\"\u003e021-5.1: Dishwasher - Holiday OT\u003c/option\u003e\n\u003coption value=\"288\"\u003e021-5.2: Dishwasher - Holiday DT\u003c/option\u003e\n\u003coption value=\"1205\"\u003e021-6: Dishwasher - 1099 NEC\u003c/option\u003e\n\u003coption value=\"604\"\u003e021-7: Dishwasher - Bonus\u003c/option\u003e\n\u003coption value=\"287\"\u003e021-8: Dishwasher - PTO\u003c/option\u003e\n\u003coption value=\"605\"\u003e021-9: Dishwasher - PTO Payout\u003c/option\u003e\n\u003coption value=\"320\"\u003e022-1: Maintenance Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1151\"\u003e022-2: Maintenance Director - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"321\"\u003e022-4: Maintenance Director - Sick Day\u003c/option\u003e\n\u003coption value=\"323\"\u003e022-7: Maintenance Director - Bonus\u003c/option\u003e\n\u003coption value=\"322\"\u003e022-8: Maintenance Director - PTO\u003c/option\u003e\n\u003coption value=\"617\"\u003e022-9: Maintenance Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"340\"\u003e023-1: Maintenance Assistant - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1118\"\u003e023-1.1: Maintenance Assistant - Meal Premium\u003c/option\u003e\n\u003coption value=\"341\"\u003e023-2: Maintenance Assistant - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"342\"\u003e023-3: Maintenance Assistant - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"343\"\u003e023-4: Maintenance Assistant - Sick Day\u003c/option\u003e\n\u003coption value=\"344\"\u003e023-5: Maintenance Assistant - Holiday\u003c/option\u003e\n\u003coption value=\"1072\"\u003e023-5.2: Maintenance Assistant - DT Holiday\u003c/option\u003e\n\u003coption value=\"624\"\u003e023-7: Maintenance Assistant - Bonus\u003c/option\u003e\n\u003coption value=\"625\"\u003e023-8: Maintenance Assistant - PTO\u003c/option\u003e\n\u003coption value=\"626\"\u003e023-9: Maintenance Assistant - PTO Payout\u003c/option\u003e\n\u003coption value=\"346\"\u003e024-1: Housekeeping - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"1204\"\u003e024-1.1: Housekeeping - Meal Premium\u003c/option\u003e\n\u003coption value=\"347\"\u003e024-2: Housekeeping - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"348\"\u003e024-3: Housekeeping - DT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"350\"\u003e024-4: Housekeeping - Sick Day\u003c/option\u003e\n\u003coption value=\"636\"\u003e024-5: Housekeeping - Holiday\u003c/option\u003e\n\u003coption value=\"637\"\u003e024-5.1: Housekeeping - Holiday OT\u003c/option\u003e\n\u003coption value=\"349\"\u003e024-5.2: Housekeeping - Holiday DT\u003c/option\u003e\n\u003coption value=\"638\"\u003e024-7: Housekeeping - Bonus\u003c/option\u003e\n\u003coption value=\"372\"\u003e024-8: Housekeeping - PTO\u003c/option\u003e\n\u003coption value=\"639\"\u003e024-9: Housekeeping - PTO Payout\u003c/option\u003e\n\u003coption value=\"352\"\u003e025-1: Memory Care Director - Reg Salaries/Wages\u003c/option\u003e\n\u003coption value=\"353\"\u003e025-4: Memory Care Director - Sick Day\u003c/option\u003e\n\u003coption value=\"355\"\u003e025-7: Memory Care Director - Bonus\u003c/option\u003e\n\u003coption value=\"354\"\u003e025-8: Memory Care Director - PTO\u003c/option\u003e\n\u003coption value=\"651\"\u003e025-9: Memory Care Director - PTO Payout\u003c/option\u003e\n\u003coption value=\"1177\"\u003e200-2: Management - OT Salaries/Wages\u003c/option\u003e\n\u003coption value=\"780\"\u003e200-4: Management - Sick Day\u003c/option\u003e\n\u003coption value=\"1164\"\u003e200-5: Management - Holiday\u003c/option\u003e\n\u003coption value=\"1165\"\u003e200-5.1: Management - Holiday OT\u003c/option\u003e\n\u003coption value=\"1166\"\u003e200-5.2: Management - Holiday DT\u003c/option\u003e\n\u003coption value=\"799\"\u003e200-7: Management - Bonus\u003c/option\u003e\n\u003coption value=\"781\"\u003e200-8: Management - PTO\u003c/option\u003e\n\u003coption value=\"798\"\u003e200-9: Management - PTO Payout\u003c/option\u003e\n\u003coption value=\"782\"\u003e201: Senior Management Salaries\u003c/option\u003e\n\u003coption value=\"1206\"\u003e201-2: Senior Management - OT Salaries\u003c/option\u003e\n\u003coption value=\"783\"\u003e202: Mid-Level Management Salaries\u003c/option\u003e\n\u003coption value=\"784\"\u003e203: Supervisory Management Salaries\u003c/option\u003e\n\u003coption value=\"1203\"\u003e203-2: Supervisory Management OT Salaries\u003c/option\u003e\n\u003coption value=\"150\"\u003e5001: Wages\u003c/option\u003e\n\u003coption value=\"225\"\u003e5002: OT Salaries and Wages\u003c/option\u003e\n\u003coption value=\"226\"\u003e5003: DT Salaries and Wages\u003c/option\u003e\n\u003coption value=\"227\"\u003e5004: Sick Day\u003c/option\u003e\n\u003coption value=\"228\"\u003e5005: Holiday\u003c/option\u003e\n\u003coption value=\"156\"\u003e5006: 1099-NEC\u003c/option\u003e\n\u003coption value=\"229\"\u003e5007: Bonus\u003c/option\u003e\n\u003coption value=\"373\"\u003e5008: PTO\u003c/option\u003e\n\u003coption value=\"374\"\u003e5008-1: PTO Payout\u003c/option\u003e\n\u003coption value=\"1209\"\u003e5009: Other Compensation\u003c/option\u003e\n\u003coption value=\"1210\"\u003e5010: Employee Reimbursement\u003c/option\u003e\n\u003coption value=\"152\"\u003e5210: Employee Retirement Plans\u003c/option\u003e\n\u003coption value=\"153\"\u003e5220: Group Term Live Insurance\u003c/option\u003e\n\u003coption value=\"154\"\u003e5230: Health Insurance and Accident Plans\u003c/option\u003e\n\u003coption value=\"155\"\u003e5240: Dental / Vision Plan\u003c/option\u003e\n\u003coption value=\"1161\"\u003e5290: Employee Benefits - Other\u003c/option\u003e\n\u003coption value=\"220\"\u003e5311: ER Social Security\u003c/option\u003e\n\u003coption value=\"221\"\u003e5312: ER Medicare\u003c/option\u003e\n\u003coption value=\"222\"\u003e5313: ER Federal Unemployment Tax\u003c/option\u003e\n\u003coption value=\"223\"\u003e5314: ER State Unemployment Tax\u003c/option\u003e\n\u003coption value=\"224\"\u003e5315: ER Employment Training Tax\u003c/option\u003e\n\u003coption value=\"1146\"\u003e5316: Payroll Tax Due\u003c/option\u003e\n\u003coption value=\"131\"\u003e5500: PAYROLL SERVICES\u003c/option\u003e\n\u003coption value=\"113\"\u003e5600: COMMISSION\u003c/option\u003e\n\u003coption value=\"1095\"\u003e5700: REIMBURSEMENT\u003c/option\u003e\n\u003coption value=\"198\"\u003e5800: EMPLOYEE ONBOARDING\u003c/option\u003e\n\u003coption value=\"212\"\u003e5900: EMPLOYEE CONTINUED EDUCTION / TRAINING\u003c/option\u003e\n\u003coption value=\"218\"\u003e5999: Mainstreet Payroll\u003c/option\u003e\n\u003coption value=\"192\"\u003e6010: Copier / Printer Lease\u003c/option\u003e\n\u003coption value=\"193\"\u003e6011: Internet / Cable and Phone\u003c/option\u003e\n\u003coption value=\"194\"\u003e6012: Postage and Shipping\u003c/option\u003e\n\u003coption value=\"195\"\u003e6013: Software and Apps\u003c/option\u003e\n\u003coption value=\"196\"\u003e6014: Office Supplies\u003c/option\u003e\n\u003coption value=\"209\"\u003e6015: Business Cards / Brochures and Name Tags\u003c/option\u003e\n\u003coption value=\"197\"\u003e6020: Compliance / Registration / License Fees\u003c/option\u003e\n\u003coption value=\"210\"\u003e6021: Bank / Transaction Processing Fee\u003c/option\u003e\n\u003coption value=\"48\"\u003e6030: Advertising / Marketing\u003c/option\u003e\n\u003coption value=\"1176\"\u003e6031: Friends and Family Referral\u003c/option\u003e\n\u003coption value=\"199\"\u003e6060: Admin - Meals and Snacks\u003c/option\u003e\n\u003coption value=\"211\"\u003e6090: Admin - Other\u003c/option\u003e\n\u003coption value=\"188\"\u003e6110: Activities / Entertainments\u003c/option\u003e\n\u003coption value=\"189\"\u003e6120: Activities Supplies / Materials\u003c/option\u003e\n\u003coption value=\"190\"\u003e6130: Activities Transportation / Fuel\u003c/option\u003e\n\u003coption value=\"213\"\u003e6140: Activities Snacks / Drinks\u003c/option\u003e\n\u003coption value=\"179\"\u003e6210: Common Area - Snacks / Treats\u003c/option\u003e\n\u003coption value=\"180\"\u003e6220: Decoration Supplies\u003c/option\u003e\n\u003coption value=\"182\"\u003e6230: Housekeeping / Laundry / Toiletry Supplies\u003c/option\u003e\n\u003coption value=\"214\"\u003e6250: Resident Care / Consultation Service\u003c/option\u003e\n\u003coption value=\"181\"\u003e6251: Resident Care / Medical Supplies\u003c/option\u003e\n\u003coption value=\"215\"\u003e6252: Resident Pendant System / Monitoring Service\u003c/option\u003e\n\u003coption value=\"185\"\u003e6260: Water Softener\u003c/option\u003e\n\u003coption value=\"1172\"\u003e6261: Drinking Water\u003c/option\u003e\n\u003coption value=\"186\"\u003e6270: Medical Waste Disposal\u003c/option\u003e\n\u003coption value=\"183\"\u003e6280: Facilities - Other\u003c/option\u003e\n\u003coption value=\"97\"\u003e6290: Security / Fire Alarm Systems and Services\u003c/option\u003e\n\u003coption value=\"176\"\u003e6310: Kitchen Ingredients / Beverages\u003c/option\u003e\n\u003coption value=\"376\"\u003e6311: Kitchen - Truck Delivery Fee\u003c/option\u003e\n\u003coption value=\"216\"\u003e6320: Kitchen Wares\u003c/option\u003e\n\u003coption value=\"177\"\u003e6330: Kitchen - Other\u003c/option\u003e\n\u003coption value=\"217\"\u003e6350: Dietitian / Nutritionist / Contract Chef\u003c/option\u003e\n\u003coption value=\"54\"\u003e6410: Carpet Cleaning\u003c/option\u003e\n\u003coption value=\"55\"\u003e6420: Janitorial Expense\u003c/option\u003e\n\u003coption value=\"57\"\u003e6430: Landscaping\u003c/option\u003e\n\u003coption value=\"172\"\u003e6440: Pest Control\u003c/option\u003e\n\u003coption value=\"173\"\u003e6450: General Maintenance Supplies\u003c/option\u003e\n\u003coption value=\"56\"\u003e6460: General Maintenance Labor\u003c/option\u003e\n\u003coption value=\"174\"\u003e6470: Elevator Maintenance / Repair\u003c/option\u003e\n\u003coption value=\"1195\"\u003e6480: Backflow\u003c/option\u003e\n\u003coption value=\"59\"\u003e6490: Cleaning and Maintenance -Other\u003c/option\u003e\n\u003coption value=\"78\"\u003e6510: Painting\u003c/option\u003e\n\u003coption value=\"79\"\u003e6520: Plumbing\u003c/option\u003e\n\u003coption value=\"80\"\u003e6530: Flooring\u003c/option\u003e\n\u003coption value=\"81\"\u003e6540: HVAC ( Heat, Ventilation, Air )\u003c/option\u003e\n\u003coption value=\"118\"\u003e6550: Key / Lock Replacement\u003c/option\u003e\n\u003coption value=\"83\"\u003e6560: Roof Repair\u003c/option\u003e\n\u003coption value=\"85\"\u003e6580: Repair Supplies\u003c/option\u003e\n\u003coption value=\"84\"\u003e6590: Repairs - Other\u003c/option\u003e\n\u003coption value=\"50\"\u003e6610: Vehicle Rental\u003c/option\u003e\n\u003coption value=\"51\"\u003e6620: Mileage\u003c/option\u003e\n\u003coption value=\"52\"\u003e6630: Meals\u003c/option\u003e\n\u003coption value=\"168\"\u003e6640: Hotel/Lodging\u003c/option\u003e\n\u003coption value=\"169\"\u003e6650: Fuel\u003c/option\u003e\n\u003coption value=\"170\"\u003e6660: Vehicle Maintenance / Repair\u003c/option\u003e\n\u003coption value=\"171\"\u003e6670: DMV License/Registration\u003c/option\u003e\n\u003coption value=\"1198\"\u003e6680: Vehicle Payment\u003c/option\u003e\n\u003coption value=\"167\"\u003e7010: Electricity (Main)\u003c/option\u003e\n\u003coption value=\"166\"\u003e7012: Electricity (Garden House 2)\u003c/option\u003e\n\u003coption value=\"90\"\u003e7013: Electricity (Garden House 3)\u003c/option\u003e\n\u003coption value=\"165\"\u003e7020: Gas (Main)\u003c/option\u003e\n\u003coption value=\"164\"\u003e7022: Gas (Garden House 2)\u003c/option\u003e\n\u003coption value=\"91\"\u003e7023: Gas (Garden House 3)\u003c/option\u003e\n\u003coption value=\"163\"\u003e7030: Water (Main)\u003c/option\u003e\n\u003coption value=\"92\"\u003e7031: Water (GH)\u003c/option\u003e\n\u003coption value=\"93\"\u003e7040: Sewer\u003c/option\u003e\n\u003coption value=\"94\"\u003e7050: Garbage / Recycling\u003c/option\u003e\n\u003coption value=\"356\"\u003e7101: CGL / PL - Commercial Liability\u003c/option\u003e\n\u003coption value=\"1142\"\u003e7102: XS - Excess Insurance\u003c/option\u003e\n\u003coption value=\"1189\"\u003e7103: EPLI - Employment Practice Liability\u003c/option\u003e\n\u003coption value=\"61\"\u003e7110: Property Insurance\u003c/option\u003e\n\u003coption value=\"62\"\u003e7120: Earthquake Insurance\u003c/option\u003e\n\u003coption value=\"63\"\u003e7130: Flood Insurance\u003c/option\u003e\n\u003coption value=\"124\"\u003e7140: Worker\u0026#39;s Compensation\u003c/option\u003e\n\u003coption value=\"357\"\u003e7150: Auto Insurance\u003c/option\u003e\n\u003coption value=\"1207\"\u003e7160: Crime\u003c/option\u003e\n\u003coption value=\"1208\"\u003e7170: Cyber\u003c/option\u003e\n\u003coption value=\"1194\"\u003e7199: Insurance - Other\u003c/option\u003e\n\u003coption value=\"70\"\u003e7210: Placement Referral Fees\u003c/option\u003e\n\u003coption value=\"1067\"\u003e7310: Management Fees\u003c/option\u003e\n\u003coption value=\"162\"\u003e7320: Asset Management Fee\u003c/option\u003e\n\u003coption value=\"71\"\u003e7330: Vendor Discounts\u003c/option\u003e\n\u003coption value=\"87\"\u003e7510: Property Tax\u003c/option\u003e\n\u003coption value=\"358\"\u003e7520: Supplemental Property Tax\u003c/option\u003e\n\u003coption value=\"1214\"\u003e7530: Franchise Tax\u003c/option\u003e\n\u003coption value=\"1215\"\u003e7540: Estimated Tax\u003c/option\u003e\n\u003coption value=\"88\"\u003e7590: Rental Tax Authority\u003c/option\u003e\n\u003coption value=\"160\"\u003e7700: MISCELLANEOUS EXPENSE\u003c/option\u003e\n\u003coption value=\"1080\"\u003e900-6420: HC Janitorial / Cleaning Service\u003c/option\u003e\n\u003coption value=\"1081\"\u003e900-6430: HC Gardening / Landscape Service\u003c/option\u003e\n\u003coption value=\"1082\"\u003e900-6470: HC Maintenance / Repair\u003c/option\u003e\n\u003coption value=\"1075\"\u003e900-7700: HC Miscellaneous Expense\u003c/option\u003e\n\u003coption value=\"69\"\u003e99999-7310: Management Fees\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Asset\"\u003e\u003coption value=\"4\"\u003e1300: Accounts Receivable\u003c/option\u003e\n\u003coption value=\"1193\"\u003e1500: Short-Term Loan (Asset)\u003c/option\u003e\n\u003coption value=\"5\"\u003e1600: Land\u003c/option\u003e\n\u003coption value=\"7\"\u003e1710: Buildings\u003c/option\u003e\n\u003coption value=\"8\"\u003e1720: Building Depreciation\u003c/option\u003e\n\u003coption value=\"10\"\u003e1810: Other Property\u003c/option\u003e\n\u003coption value=\"11\"\u003e1820: Other Property Depreciation\u003c/option\u003e\n\u003coption value=\"204\"\u003e1900: MISCELLANEOUS ASSET\u003c/option\u003e\n\u003coption value=\"1141\"\u003e99999-1000: QB Adjustment\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Other Income\"\u003e\u003coption value=\"1213\"\u003e4910: Non-Refundable Deposit\u003c/option\u003e\n\u003coption value=\"1150\"\u003e4999: Transfer Fund\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Other Expense\"\u003e\u003coption value=\"73\"\u003e7410: Mortgage Interest\u003c/option\u003e\n\u003coption value=\"74\"\u003e7420: Mortgage Principal\u003c/option\u003e\n\u003coption value=\"75\"\u003e7430: Mortgage - Other\u003c/option\u003e\n\u003coption value=\"58\"\u003e7440: HOA Dues\u003c/option\u003e\n\u003coption value=\"1212\"\u003e7450: Property Tax - Impound\u003c/option\u003e\n\u003coption value=\"101\"\u003e8010: Appliances\u003c/option\u003e\n\u003coption value=\"102\"\u003e8020: Equipment / Tools\u003c/option\u003e\n\u003coption value=\"103\"\u003e8030: Remodel\u003c/option\u003e\n\u003coption value=\"104\"\u003e8040: New Roof\u003c/option\u003e\n\u003coption value=\"105\"\u003e8050: Furniture\u003c/option\u003e\n\u003coption value=\"1159\"\u003e8060: Major Repair\u003c/option\u003e\n\u003coption value=\"159\"\u003e8111: Inspection / Citation Fee\u003c/option\u003e\n\u003coption value=\"1149\"\u003e8120: Penalty Fee\u003c/option\u003e\n\u003coption value=\"99\"\u003e8130: Equipment Rental\u003c/option\u003e\n\u003coption value=\"65\"\u003e8210: Legal\u003c/option\u003e\n\u003coption value=\"66\"\u003e8220: Accounting\u003c/option\u003e\n\u003coption value=\"67\"\u003e8230: Other Professional Fee\u003c/option\u003e\n\u003coption value=\"95\"\u003e8300: DEPRECIATION EXPENSE\u003c/option\u003e\n\u003coption value=\"76\"\u003e8400: OTHER INTEREST\u003c/option\u003e\n\u003coption value=\"157\"\u003e8500: DONATION\u003c/option\u003e\n\u003coption value=\"377\"\u003e8600: GIFTS\u003c/option\u003e\n\u003coption value=\"1155\"\u003e8700: Transfer Fund\u003c/option\u003e\n\u003coption value=\"1162\"\u003e8800: Other Expense\u003c/option\u003e\n\u003coption value=\"98\"\u003e8900: ESL OS / TS / WV ( Cross community insurance payment )\u003c/option\u003e\n\u003coption value=\"1145\"\u003e8910: ESL - Corporate Insurance ( Community allocated )\u003c/option\u003e\n\u003coption value=\"158\"\u003e8999: MAIN STREET / MERRILL GARDENS Expenses\u003c/option\u003e\n\u003coption value=\"359\"\u003e9999009: Mainstreet-Prepaid insurance\u003c/option\u003e\u003c/optgroup\u003e\u003coptgroup label=\"Capital\"\u003e\u003coption value=\"25\"\u003e1200: Appfolio Opening Balance Equity\u003c/option\u003e\n\u003coption value=\"1217\"\u003e1201: Beginning Balance - Payroll\u003c/option\u003e\n\u003coption value=\"21\"\u003e1210: Owner / Investor Contribution\u003c/option\u003e\n\u003coption value=\"22\"\u003e1220: Owner / Investor Distribution\u003c/option\u003e\n\u003coption value=\"23\"\u003e1230: Retained Earnings\u003c/option\u003e\n\u003coption value=\"24\"\u003e1235: Prior Years Retained Earnings\u003c/option\u003e\u003c/optgroup\u003e\u003c/select\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_amount\"\u003eAmount\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cdiv class=\"input-add-on\"\u003e\u003cspan class=\"input-add-on__prepend\"\u003e$\u003c/span\u003e\u003cinput class=\"js-amount js-currency-input\" placeholder=\"Search by amount\" type=\"text\" value=\"\" name=\"filters[amount]\" id=\"filters_amount\" /\u003e\u003c/div\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_date_range\"\u003eFrom\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\n  \u003cli class=\"grid__small-6 grid__medium-5 grid__large-4\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput placeholder=\"Start date\" class=\"js-datepicker\" type=\"text\" value=\"03/26/2025\" name=\"filters[from_date]\" id=\"filters_from_date\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/li\u003e\n  \u003cli class=\"u-small-hidden grid__1 u-text-center\" style=\"margin-top: 0.4em;\"\u003eto\u003c/li\u003e\n  \u003cli class=\"grid__small-6 grid__medium-5 grid__large-4\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput placeholder=\"End date\" class=\"js-datepicker\" type=\"text\" value=\"05/07/2025\" name=\"filters[to_date]\" id=\"filters_to_date\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003cdiv class=\"form__row u-space-an grid\"\u003e\n    \u003cdiv class=\"form__row__body\"\u003e\n      \u003cdiv class=\"btn-toolbar u-space-vs\"\u003e\n        \u003cinput type=\"submit\" name=\"commit\" value=\"Search\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"search_button\" /\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/form\u003e"
+}

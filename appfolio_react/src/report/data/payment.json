@@ -1,0 +1,790 @@
+{
+    "thead_row": "\u003ctr\u003e\n    \u003cth class=\"paginated-table__date-column-header js-sortable-column is-sortable is-sorted-desc\" data-sort-column=\"occurred_on\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eDate\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__payee_name-column-header js-sortable-column is-sortable\" data-sort-column=\"payee_name\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003ePayee\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__bank_account-column-header js-sortable-column is-sortable\" data-sort-column=\"bank_account\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eBank Account\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__reference_number-column-header js-sortable-column is-sortable\" data-sort-column=\"reference\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eReference\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__amount-column-header js-sortable-column is-sortable\" data-sort-column=\"amount\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eAmount\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__last_printed-column-header js-sortable-column is-sortable\" data-sort-column=\"printed_on\"\u003e\n        \u003cspan class=\"paginated-table__header-control\"\u003eLast Printed\u003c/span\u003e\n    \u003c/th\u003e\n    \u003cth class=\"paginated-table__action-column-header\" data-sort-column=\"\"\u003e\n        Action\n    \u003c/th\u003e\n\u003c/tr\u003e\n",
+    "body_row_data": [
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Jesse - contractor"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eZelle\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72030\"\u003e\u003cdiv class=\"u-text-right\"\u003e2,100.00\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/72030/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/72030/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"C4F5KKjb64Xm16fngDopC_sK23naMDBbssklUNpn8kTNMK_zYihIK5b-4mt0IDuhxvEX5NHhUhOTim4FDLnucg\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/06/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/06/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72030"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Premier Landscape"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eACH 05/06/2025\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71836\"\u003e\u003cdiv class=\"u-text-right\"\u003e618.20\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71836/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71836/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"ayHp3rEUvUjNfJ88Hlsg-ryZ1P_nKvf91DzMRy7U32etkD8Fe-ce5r1V2rDqQTJQgWIYYuz7lbX1f4cS-ArDUQ\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/06/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/06/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71836"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/06/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Southern California Edison"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eACH 05/06/2025\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71835\"\u003e\u003cdiv class=\"u-text-right\"\u003e9,237.49\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71835/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71835/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"6rttKs5q1VKZV4BkEh918vZQZOwbKUs8pZaBTD0X3YEsCrvxBJl2_Ol-xejmBWdYy6uocRD4KXSE1coZ68nBtw\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/06/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/06/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71835"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Combined Employer Services Inc ( Payroll )"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72214\"\u003e\u003cdiv class=\"u-text-right\"\u003e107,522.17\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_72214\" data-one-payment-location=\"/accounting/print_checks/print_check?id=72214\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/72214/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/72214/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"X_R_kdCUaOU16uW6NUNtSNVJdhbY_SOqq6M1HDc23G-ZRalKGmfLS0XDoDbBWX_i6LK6i9MsQeKK4H5J4ejAWQ\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72214"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Combined Employer Services Inc ( Payroll )"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72177\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e107,522.17\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72177"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "PAYROLL NET"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e10381\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72156\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,126.42\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_72156\" data-one-payment-location=\"/accounting/print_checks/print_check?id=72156\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/72156/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/72156/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"SgI2ntZbUrmMGXELHfWPkrXClDIotW1bFcjnwRRpmQ2Ms-BFHKjxF_wwNIfp7504iDlYryNkDxM0i6yUwreFOw\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72156"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "PAYROLL NET"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72085\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e79,559.66\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72085"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "ZayZoon - Advance Paycheck ( Payroll )"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72072\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e3,713.00\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72072"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "PAYROLL TAX"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72044\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e23,678.33\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72044"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Combined Employer Services Inc ( Payroll )"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003eTRN:1253632455TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72043\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e571.18\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72043"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "PAYROLL NET"
+                },
+                {
+                    "class": null,
+                    "value": "Oceanside Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"u-text-line-through\"\u003e10381\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/72042\"\u003e\u003cdiv class=\"u-text-right u-text-line-through\"\u003e1,126.42\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/72042"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Guang Quan Wu"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eACH 05/05/2025\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71358\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,666.67\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71358/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71358/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"Gl8uiO4o6ocpxx9gJqBte3rZ-_isVrSCnOuuw8AiY9Dc7vhTJNtJKVnuWuzSun_RRyI3ZaeH1sq9qOWWFvx_5g\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71358"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Uni Quick Earn, Inc"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eACH 05/05/2025\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71357\"\u003e\u003cdiv class=\"u-text-right\"\u003e416.67\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71357/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71357/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"5KIXyv5NlHg_1HPXI1fP7kjQ8pZr1kx1-tiU8E8RfqoiE8ERNL431k_9NlvXTd1EdSs-C2AHLj3bm9-lmc9inA\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71357"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Eric S Lao"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eACH 05/05/2025\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71356\"\u003e\u003cdiv class=\"u-text-right\"\u003e416.67\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71356/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71356/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"3FdqHQziymNWZQE3KSMKTFtBcL7-x9-SdWkomb1v67Ua5rzGxhFpzSZMRLvdORjmZrq8I_UWvdpUKmPMa7H3gw\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71356"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Howard Lee"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eRefund\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71354\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,696.27\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71354/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71354/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"GQhP-QKgPPobDAh0NAimyIwsziQtxLf3GZv4dkcavVvfuZkiyFOfVGslTfjAErRisdcCuSYV1b842LMjkcShbQ\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71354"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/05/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Charlene Ko"
+                },
+                {
+                    "class": null,
+                    "value": "Walnut Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eRefund\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71346\"\u003e\u003cdiv class=\"u-text-right\"\u003e2,665.00\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71346/void\" data-payment-type=\"payment\" data-message=\"Do you want to void this payment?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71346/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"VErBQoIbbD3hZGoewnZ7A1GObhCJ0gUhRwvaQ1TQg7CS-xeZSOjPk5FNL5I2bGmpbHWijYIDZ2lmSJEWgg6fhg\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided payment from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/05/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided payment from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided payment, the void date will be the date the payment was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/05/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71346"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/02/2025"
+                },
+                {
+                    "class": null,
+                    "value": "Principal Financial Services Inc. ( Payroll )"
+                },
+                {
+                    "class": null,
+                    "value": "Tustin Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eTRN:1221764120TC\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71664\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,155.94\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_71664\" data-one-payment-location=\"/accounting/print_checks/print_check?id=71664\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71664/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71664/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"Ke8E6JfZAnI1hWp7WaPW2TJUUOeG0w1xNsnZijK4X5HvXtIzXSqh3EWsL_etucRzD6-ceo0CbzkXipLf5GZDpw\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/02/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the 2 associated bills\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the 2 associated bills\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/02/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71664"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/02/2025"
+                },
+                {
+                    "class": null,
+                    "value": "EVEREST MANAGEMENT"
+                },
+                {
+                    "class": null,
+                    "value": "Tustin Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eTrans# 24627300163\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71330\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,545.81\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_71330\" data-one-payment-location=\"/accounting/print_checks/print_check?id=71330\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71330/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71330/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"TR17ZzwOPjAavDHXFINGigg8NLk5b71bFXPUyZIcv2WLrK289v2dnmqVdFvgmVQgNcf4JDK-3xM0MJ-cRMKjUw\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/02/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/02/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71330"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/02/2025"
+                },
+                {
+                    "class": null,
+                    "value": "EVEREST MANAGEMENT"
+                },
+                {
+                    "class": null,
+                    "value": "Tustin Operating"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003eTrans# 24624039399\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71326\"\u003e\u003cdiv class=\"u-text-right\"\u003e20,000.00\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_71326\" data-one-payment-location=\"/accounting/print_checks/print_check?id=71326\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71326/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71326/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"1Yz-Hzqet9nV87CRFiCvfv5XUxVSmQ36OJmanx2CEV4TPSjE8G0Ud6Xa9R3iOr3Uw6yfiFlIb7IZ2tHKy1wNaA\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/02/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the 2 associated bills\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the 2 associated bills\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/02/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71326"
+                }
+            ]
+        },
+        {
+            "row_classes": [],
+            "data": [
+                {
+                    "class": null,
+                    "value": "05/01/2025"
+                },
+                {
+                    "class": null,
+                    "value": "PAYROLL NET"
+                },
+                {
+                    "class": null,
+                    "value": "Tustin Payroll"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e1114 (originally 1108)\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003ca href=\"/accounting/payable_payments/71931\"\u003e\u003cdiv class=\"u-text-right\"\u003e1,295.35\u003c/div\u003e\u003c/a\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"\"\u003e--\u003c/div\u003e"
+                },
+                {
+                    "class": null,
+                    "value": "\u003cdiv class=\"checks-table__action-cell__container\"\u003e\u003cdiv class=\"checks-table__action-cell__container__icon-container checks-table__action-cell__container__icon-container--reprint\"\u003e\u003ca id=\"regenerate_link_71931\" data-one-payment-location=\"/accounting/print_checks/print_check?id=71931\" class=\"js-reprint-txn-pdf\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-printer\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/div\u003e \u003cdiv class=\"checks-table__action-cell__container__icon-container\"\u003e\u003ca data-void-url=\"/accounting/payable_payments/71931/void\" data-payment-type=\"check\" data-message=\"Do you want to void this check?\" class=\" js-void-payment\" href=\"#\"\u003e\u003cspan class=\"sprite sprite-payment_delete\"\u003e\u003c/span\u003e\u003c/a\u003e\n\u003cdiv class=\"u-hidden js-void-modal-body\"\u003e\n  \u003cform class=\"form\" id=\"new_accounting_void_payable_payment_form\" novalidate=\"novalidate\" action=\"/accounting/payable_payments/71931/void\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"post\"\u003e\u003cinput type=\"hidden\" name=\"authenticity_token\" value=\"7QL24bp9iQ6LyjH2rqCJF78UGW_zXO109DqOS1kPDrIrsyA6cI4qoPvjdHpaupu9gu_V8viNjzzVecUej9EShA\" autocomplete=\"off\" /\u003e\n      \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Suppress this voided check from owner statements \u003cspan class=\u0026quot;js-popover help-bubble\u0026quot; data-popover-body=\u0026quot;If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\u0026quot;\u003e\u003c/span\u003e\" data-occurred-on=\"05/01/2025\" data-today=\"05/07/2025\" type=\"checkbox\" value=\"1\" checked=\"checked\" name=\"accounting_void_payable_payment_form[suppress_from_owner_statements]\" id=\"accounting_void_payable_payment_form_suppress_from_owner_statements\" /\u003e Suppress this voided check from owner statements \u003cspan class=\"js-popover help-bubble\" data-popover-body=\"If you suppress the voided check, the void date will be the date the check was written. Otherwise, the void date will be today.\"\u003e\u003c/span\u003e\u003c/label\u003e\n\n        \u003cinput value=\"0\" autocomplete=\"off\" type=\"hidden\" name=\"accounting_void_payable_payment_form[reverse_bills]\" /\u003e\u003clabel class=\"form__row__control form__row__control--inline\"\u003e\u003cinput inline_label=\"Reverse the associated bill\" type=\"checkbox\" value=\"1\" name=\"accounting_void_payable_payment_form[reverse_bills]\" id=\"accounting_void_payable_payment_form_reverse_bills\" /\u003e Reverse the associated bill\u003c/label\u003e\n        \n\n      \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_date_of_void\"\u003eVoid on\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput value=\"05/01/2025\" disabled=\"disabled\" aria-required=\"true\" required=\"required\" class=\"js-datepicker\" type=\"text\" name=\"accounting_void_payable_payment_form[date_of_void]\" id=\"accounting_void_payable_payment_form_date_of_void\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"accounting_void_payable_payment_form_reason_for_void\"\u003eReason for Void\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cinput type=\"text\" name=\"accounting_void_payable_payment_form[reason_for_void]\" id=\"accounting_void_payable_payment_form_reason_for_void\" /\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"payable-payments-void-modal-buttons\"\u003e\n      \u003cinput type=\"submit\" name=\"commit\" value=\"Void\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"void_button\" /\u003e\n      \u003cdiv class=\"btn btn-secondary js-void-modal-cancel\"\u003eCancel\u003c/div\u003e\n    \u003c/div\u003e\n\u003c/form\u003e\u003c/div\u003e\n\u003c/div\u003e\u003c/div\u003e"
+                }
+            ],
+            "row_data_attributes": [
+                {
+                    "key": "href",
+                    "value": "/accounting/payable_payments/71931"
+                }
+            ]
+        }
+    ],
+    "pagination": "\u003cdiv class=\"pagination border-top-0 pb-0 d-flex flex-column flex-sm-row-reverse justify-content-between align-items-center mb-3\"\u003e\n  \u003cnav aria-label=\"pagination\"\u003e\n    \u003cul class=\"m-0 p-0 mb-2 mb-sm-0 border-0 flex-row pagination\"\u003e\n\n\n          \u003cli class=\"pagination__current page-item active\"\u003e\n            \u003cspan class=\"page-link\"\u003e1\u003c/span\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/payable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bbank_account_ids%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=04%2F30%2F2025\u0026amp;filters%5Breference%5D=\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;page=2\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e2\u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"page-item\"\u003e\n              \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/payable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bbank_account_ids%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=04%2F30%2F2025\u0026amp;filters%5Breference%5D=\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;page=3\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e3\u003c/a\u003e\n          \u003c/li\u003e\n\n        \u003cli class=\"js-pagination-next page-item d-flex align-items-center\"\u003e\n  \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/payable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bbank_account_ids%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=04%2F30%2F2025\u0026amp;filters%5Breference%5D=\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;page=2\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e\n    \u003ci class=\"fa-solid fa-angle-right\"\u003e\u003c/i\u003e\n\u003c/a\u003e\u003c/li\u003e\n\n\n        \u003cli class=\"js-pagination-last page-item d-flex align-items-center\"\u003e\n  \u003ca class=\"js-pagination-link page-link\" data-type=\"json\" data-remote=\"true\" href=\"/accounting/payable_payments?filters%5Bamount%5D=\u0026amp;filters%5Bbank_account_ids%5D=\u0026amp;filters%5Bcontact_info_ids%5D=\u0026amp;filters%5Bfrom_date%5D=04%2F30%2F2025\u0026amp;filters%5Breference%5D=\u0026amp;filters%5Bto_date%5D=05%2F07%2F2025\u0026amp;page=3\u0026amp;sort%5Bby%5D=occurred_on\u0026amp;sort%5Border%5D=desc\"\u003e\n    \u003ci class=\"fa-solid fa-angle-double-right\"\u003e\u003c/i\u003e\n\u003c/a\u003e\u003c/li\u003e\n\n    \u003c/ul\u003e\n  \u003c/nav\u003e\n\n  \u003cp class=\"js-pagination-summary m-0\"\u003eDisplaying: 1-20 of 54\u003c/p\u003e\n\u003c/div\u003e\n",
+    "base_url": "/accounting/payable_payments?filters%5Bamount%5D=\u0026filters%5Bbank_account_ids%5D=\u0026filters%5Bcontact_info_ids%5D=\u0026filters%5Bfrom_date%5D=04%2F30%2F2025\u0026filters%5Breference%5D=\u0026filters%5Bto_date%5D=05%2F07%2F2025\u0026sort%5Bby%5D=occurred_on\u0026sort%5Border%5D=desc",
+    "current_page_url": "/accounting/payable_payments?filters%5Bamount%5D=\u0026filters%5Bbank_account_ids%5D=\u0026filters%5Bcontact_info_ids%5D=\u0026filters%5Bfrom_date%5D=04%2F30%2F2025\u0026filters%5Breference%5D=\u0026filters%5Bto_date%5D=05%2F07%2F2025\u0026page=1\u0026sort%5Bby%5D=occurred_on\u0026sort%5Border%5D=desc",
+    "grouped": null,
+    "filter_form_html": "\u003cform class=\"form form--full-width\" id=\"new_filters\" data-type=\"json\" autocomplete=\"off\" novalidate=\"novalidate\" action=\"/accounting/payable_payments\" accept-charset=\"UTF-8\" data-remote=\"true\" method=\"get\"\u003e\n  \n\n\n  \u003cdiv class=\"form__row js-bank-account-search\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_bank_account_ids\"\u003eBank Accounts\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput data-search-path=\"/search/bank_account_search\" placeholder=\"Search by bank account\" data-created-by-helper=\"true\" data-multiple=\"true\" class=\"  js-select2-search\" disabled=\"disabled\" data-init-value=\"\" data-wait-value=\"Please wait...\" value=\"Please wait...\" type=\"text\" name=\"filters[bank_account_ids]\" id=\"filters_bank_account_ids\" /\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_contact_info_ids\"\u003ePayees\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput value=\"\" class=\"js-select2-search js-contact-info\" data-search-path=\"/search/contact_info_search\" data-include-types=\"[\u0026quot;owner\u0026quot;,\u0026quot;tax_authority\u0026quot;,\u0026quot;core/company\u0026quot;,\u0026quot;vendor\u0026quot;]\" data-multiple=\"true\" placeholder=\"Search by payee\" type=\"text\" name=\"filters[contact_info_ids]\" id=\"filters_contact_info_ids\" /\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_reference\"\u003eReference\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cinput placeholder=\"Search by reference\" class=\"js-reference\" type=\"text\" value=\"\" name=\"filters[reference]\" id=\"filters_reference\" /\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_amount\"\u003eAmount\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\u003cli class=\"grid__small-12 grid__medium-11\"\u003e\u003cdiv class=\"input-add-on\"\u003e\u003cspan class=\"input-add-on__prepend\"\u003e$\u003c/span\u003e\u003cinput class=\"js-amount js-currency-input\" placeholder=\"Search by amount\" type=\"text\" value=\"\" name=\"filters[amount]\" id=\"filters_amount\" /\u003e\u003c/div\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\n  \u003cdiv class=\"form__row form__row--required\"\u003e\u003clabel class=\"form__row__label\" for=\"filters_date_range\"\u003eFrom\u003c/label\u003e\u003cdiv class=\"form__row__body\"\u003e\u003cdiv class=\"form__row__field-wrapper\"\u003e\u003cul class=\"grid grid--half-gutters\"\u003e\n  \u003cli class=\"grid__small-6 grid__medium-5 grid__large-4\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput placeholder=\"Start date\" class=\"js-datepicker\" type=\"text\" value=\"04/30/2025\" name=\"filters[from_date]\" id=\"filters_from_date\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/li\u003e\n  \u003cli class=\"u-small-hidden grid__1 u-text-center\" style=\"margin-top: 0.4em;\"\u003eto\u003c/li\u003e\n  \u003cli class=\"grid__small-6 grid__medium-5 grid__large-4\"\u003e\u003cdiv class=\"js-gears-date input-add-on\"\u003e\u003cinput placeholder=\"End date\" class=\"js-datepicker\" type=\"text\" value=\"05/07/2025\" name=\"filters[to_date]\" id=\"filters_to_date\" /\u003e\u003cspan class=\"js-datepicker-trigger input-add-on__append button\"\u003e\u003cspan class=\"icon icon-calendar\"\u003e\u003c/span\u003e\u003c/span\u003e\u003c/div\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003cdiv class=\"form__row u-space-an grid\"\u003e\n    \u003cdiv class=\"form__row__body\"\u003e\n      \u003cdiv class=\"btn-toolbar u-space-vs\"\u003e\n        \u003cinput type=\"submit\" name=\"commit\" value=\"Search\" class=\"btn btn-primary\" data-disable-with=\"Please Wait...\" id=\"search_button\" /\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/form\u003e"
+}
